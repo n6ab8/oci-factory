@@ -13,7 +13,7 @@ upload:
     directory: examples/mock-rock
     release:
       1.0-22.04:
-        end-of-life: "2024-05-01T00:00:00Z"
+        end-of-life: "2024-05-02T00:00:00Z"
         risks: 
           - candidate
           - edge
