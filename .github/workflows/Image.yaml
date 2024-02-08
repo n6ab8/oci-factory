@@ -472,7 +472,7 @@ jobs:
   dispatch-releases-workflow:
     name: Dispatch Releases workflow
     needs: [dispatch-releases]
-    uses: linostar/oci-factory/.github/workflows/Release.yaml@951-test
+    uses: linostar/oci-factory/.github/workflows/Release.yaml@main
     with:
       oci-image-name: "${{ needs.prepare-build.outputs.oci-img-name }}"
       image-trigger-cache-key: "${{ github.run_id }}-image-trigger"

@@ -150,7 +150,7 @@ jobs:
   dispatch-documentation:
     name: Dispatch documentation
     needs: [do-releases]
-    uses: linostar/oci-factory/.github/workflows/Documentation.yaml@951-test
+    uses: linostar/oci-factory/.github/workflows/Documentation.yaml@main
     with:
       oci-image-name: "${{ inputs.oci-image-name }}"
     secrets: inherit

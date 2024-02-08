@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         oci-image: [mock-rock]
-    uses: linostar/oci-factory/.github/workflows/Image.yaml@951-test
+    uses: linostar/oci-factory/.github/workflows/Image.yaml@main
     with:
       oci-image-name: "${{ matrix.oci-image }}"
       upload: true
