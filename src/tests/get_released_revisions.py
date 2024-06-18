@@ -18,7 +18,7 @@ import sys
 from datetime import datetime, timezone
 import docker
 
-SKOPEO_IMAGE = os.getenv("SKOPEO_IMAGE", "quay.io/skopeo/stable:v1.13")
+SKOPEO_IMAGE = os.getenv("SKOPEO_IMAGE", "quay.io/skopeo/stable:v1.14.2")
 REGISTRY = "ghcr.io/canonical/oci-factory"
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
